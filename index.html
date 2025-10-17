@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Funcionários</title>
+</head>
+
+<body>
+  <!-- Título principal da página -->
+  <h1>Lista de Funcionários</h1>
+
+  <!-- Seção de formulário simples para adicionar um novo funcionário -->
+  <h2>Novo Funcionário</h2>
+
+  <!-- Campos de entrada de dados -->
+  <input id="nome" placeholder="Nome"> <!-- Campo de texto para o nome -->
+  <input id="profissao" placeholder="Profissão"> <!-- Campo para a profissão -->
+  <input id="modelo" placeholder="Modelo"> <!-- Campo para o modelo (ex: remoto/presencial) -->
+  <input id="salario" placeholder="Salário" type="number"> <!-- Campo numérico para o salário -->
+
+  <!-- Botão que, ao ser clicado, chama a função "adicionarFuncionario()" do script.js -->
+  <button onclick="adicionarFuncionario()">Adicionar</button>
+
+  <!-- Importa o arquivo script.js, que contém o código JavaScript para conectar com a API -->
+  <script src="script.js"></script>
+</body>
+</html>
